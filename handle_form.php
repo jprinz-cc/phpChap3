@@ -20,26 +20,18 @@
 </head>
 
 <body>
+
     <?php
-    /*ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);*/
-
-
     $title = $_POST['title'];
     $name = $_POST['name'];
     $response = $_POST['response'];
     $comments = $_POST['comments'];
 
     print "<p>Thank you, $title $name, for your comments.</p>
-    <p>You stated that you found this example to be '$response' and added: <br><br>$comments</p>"
+    <p>You stated that you found this example to be '$response' and added:<br><br>$comments</p>";
 
 
     ?>
-
-
-
-
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
