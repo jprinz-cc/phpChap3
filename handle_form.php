@@ -26,6 +26,7 @@
     <?php
 
     ini_set('display_errors', 1);
+    error_reporting(E_ALL);
 
     $title = $_POST['title'];
     $name = $_POST['name'];
